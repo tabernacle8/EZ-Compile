@@ -23,11 +23,15 @@
 
 *2)* Extract the zip into your flash drive
 
-*3)* Create / edit your code in "your_code.txt"
+*3)* Navigate to the files called: "your_code.txt" and "java_convert.js". Move them directly onto the flash drive folder.
 
-*4)* Run node.exe
+      Confused? When you first open up your flash drive, you see it's contents. Move the files specified above into that "area" that you       first see when you open your flash drive.
 
-*5)* In the window, type ".load E:\EZ-Compile-master\EZ-Compile-master\java_convert.js" (No quotation marks)
+*4)* Create / edit your code in "your_code.txt"
+
+*5)* Run node.exe
+
+*6)* In the window, type ".load E:\EZ-Compile-master\EZ-Compile-master\java_convert.js" (No quotation marks)
 
     *NOTE*: Your drive may start with something other than E. Use a different letter if needed.
 
@@ -35,7 +39,7 @@
     Example: Naming both "EZ-Compile-master" folders to "hi" means you would type: 
         ".load E:\hi\hi\java_convert.js"
 
-*6)* Press enter, the psuedocode in "your_code.txt" will be converted and shown.
+*7)* Press enter, the psuedocode in "your_code.txt" will be converted and shown.
    
     NOTE: Make sure you saved your changes in "your_code.txt" before pressing enter
 
