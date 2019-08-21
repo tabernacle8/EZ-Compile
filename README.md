@@ -1,6 +1,6 @@
 ######**How To Install:**######
 
-###**Local Version (Desktop):**###
+###**Local Version (Desktop, one computer):**###
 
 *Before you start:* Make sure you have node.js installed and applied to PATH
 
@@ -13,6 +13,8 @@
 *4)* Run "java_convert.js" in your favorite IDE
 
 *5)* Repeat step 4 to re-compile changes to "your_code.txt" (Make sure you save the file!)
+
+
 
 
 ###**Portable Version (Flash Drive):**###
