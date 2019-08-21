@@ -2,7 +2,7 @@ const fs = require('fs')
   
 fs.readFile('your_code.txt', (err, data) => { 
     if (err) throw err; 
-  
+
     //Split and prepare
     lines = data.toString().split("\n")
     var count = 0
@@ -175,7 +175,7 @@ fs.readFile('your_code.txt', (err, data) => {
             variable_test_numb = Number(equals)
             if(variable_test_numb>=0 ||variable_test_numb<=0){
                 if(storage[find(variable,variables)]!="int"){
-                    console.log(`ERROR: Re-assigned a int to another type (Line: ${count+1})`)
+                    console.log(`ERROR: Re-assigned an int to another type (Line: ${count+1})`)
                     return;
                 }
             }
