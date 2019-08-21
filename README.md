@@ -1,6 +1,6 @@
-######**How To Install:**
+######**How To Install:**######
 
-###**Local Version (Desktop):**
+###**Local Version (Desktop):**###
 
 *Before you start:* Make sure you have node.js installed and applied to PATH
 
@@ -15,7 +15,7 @@
 *5)* Repeat step 4 to re-compile changes to "your_code.txt" (Make sure you save the file!)
 
 
-###**Portable Version (Flash Drive):**
+###**Portable Version (Flash Drive):**###
 
 *1)* Download this repository as a ZIP
 
