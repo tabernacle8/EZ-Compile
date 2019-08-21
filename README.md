@@ -39,4 +39,4 @@
    
     NOTE: Make sure you saved your changes in "your_code.txt" before pressing enter
 
-*7)* Reoeat 5-6 when you would like to re-compile changes to "your_code.txt".
+*7)* Repeat 5-6 when you would like to re-compile changes to "your_code.txt".
