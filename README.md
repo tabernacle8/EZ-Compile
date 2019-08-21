@@ -25,7 +25,7 @@
 
 *3)* Navigate to the files called: "your_code.txt" and "java_convert.js". Move them directly onto the flash drive folder.
 
-      Confused? When you first open up your flash drive, you see it's contents. Move the files specified above into that "area" that you       first see when you open your flash drive.
+      Confused? When you first open up your flash drive, you see it's contents. Move the files specified above into that "area" that you first see when you open your flash drive.
 
 *4)* Create / edit your code in "your_code.txt"
 
