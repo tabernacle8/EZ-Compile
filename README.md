@@ -31,13 +31,9 @@
 
 *5)* Run node.exe
 
-*6)* In the window, type ".load E:\EZ-Compile-master\EZ-Compile-master\java_convert.js" (No quotation marks)
+*6)* In the window, type ".load E:\java_convert.js" (No quotation marks)
 
     *NOTE*: Your drive may start with something other than E. Use a different letter if needed.
-
-    NOTE: You may want to change the folder names to something shorter.
-    Example: Naming both "EZ-Compile-master" folders to "hi" means you would type: 
-        ".load E:\hi\hi\java_convert.js"
 
 *7)* Press enter, the psuedocode in "your_code.txt" will be converted and shown.
    
