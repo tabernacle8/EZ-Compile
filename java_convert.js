@@ -275,6 +275,6 @@ fs.readFile('your_code.txt', (err, data) => {
     }
 
     }
-    totaltext+=(`//Made with Taber Ez-Compile`)
+    totaltext+=(`//Made with Ez-Compile`)
     console.log(totaltext)
 }) 
