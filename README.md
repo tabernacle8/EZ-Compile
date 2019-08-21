@@ -23,7 +23,7 @@
 
 *2)* Extract the zip into your flash drive
 
-*3)* Navigate to the files called: "your_code.txt" and "java_convert.js". Move them directly onto the flash drive folder.
+*3)* Navigate to the files called: "your_code.txt", "java_convert.js" and "node.exe". Move them directly onto the flash drive folder.
 
       Confused? When you first open up your flash drive, you see it's contents. Move the files specified above into that "area" that you first see when you open your flash drive.
 
