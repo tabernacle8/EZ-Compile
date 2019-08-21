@@ -175,7 +175,7 @@ fs.readFile('your_code.txt', (err, data) => {
             variable_test_numb = Number(equals)
             if(variable_test_numb>=0 ||variable_test_numb<=0){
                 if(storage[find(variable,variables)]!="int"){
-                    console.log(`ERROR: Re-assigned an int to another type (Line: ${count+1})`)
+                    console.log(`ERROR: Re-assigned an int to another type (Line: ${count+ 1})`)
                     return;
                 }
             }
