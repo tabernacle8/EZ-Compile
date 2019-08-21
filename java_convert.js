@@ -276,5 +276,5 @@ fs.readFile('your_code.txt', (err, data) => {
 
     }
     totaltext+=(`//Made with Ez-Compile`)
-    console.log(totaltext)
+    console.log(`//Your code will output below:\n${totaltext}`)
 }) 
