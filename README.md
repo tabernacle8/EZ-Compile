@@ -1,42 +1,115 @@
-######**How To Install:**######
+                                Ez-Compile
+                        Created by: Carter Kosturos
 
-###**Local Version (Desktop, one computer):**###
+-------------------------
+Basics
+-------------------------
+- Each line is 1 instruction
 
-*Before you start:* Make sure you have node.js installed and applied to PATH
+- Lines do not need to be ended with semi-colons
 
-*1)* Download this repository as a ZIP
+- Begin the main method by typing "main" on a line
+    - You do not need an opening "{"
 
-*2)* Extract the zip to your desktop
+- End the main method with "end"
+    - Ultimately, this puts a "}"
 
-*3)* Type your code into the file called "your_code.txt"
+- If a line includes real java code (which has no shorthand in this converter) it will remain as-is
+    - This means it will need proper syntax, such as ";" or anything else.
 
-*4)* Run "java_convert.js" in your favorite IDE
+-------------------------
+Variable Assignments
+-------------------------
 
-*5)* Repeat step 4 to re-compile changes to "your_code.txt" (Make sure you save the file!)
+- Variable assignments start with "ass"
+    Example: ass x = 10
+    Note: Data types are not needed, they are automatically assigned
+
+- Re-assign a Variable with "reass"
+    Example: reass x = 5
+
+- You can make a variable equal to "input" when using a scanner
+    Example: ass x = input
+    (This will gather user input and store it as "x")
+    Note: If a scanner is not defined, it will automatically make one.
+
+-------------------------
+Scanner
+-------------------------
+
+- Assign a scanner using "scanner ="
+    Example: scanner = hello
+    (This will create a new instance of the scanner class and assign it to the variable "hello")
+    NOTE: "hello" cannot be re-assigned. The converter remembers this variable. When calling the scanner, this variable is not needed.
+
+-------------------------
+For Loops
+-------------------------
+
+- Declare a for loop like this: for(x<10,++)
+    - This has two parts, the thing to be evaluated and the operator to be applied to the variable
+        - x<10 evaluates before the loop is ran.
+        - This compiler will automatically assign the variable you put (x in this example) as 0 and then run this comparison
+        - 10 can be replaced with another variable
+        - ++ is the operator to be applied to x
+            - The operator may be either "++" or "--"
+
+-------------------------
+Run Loop
+-------------------------
+
+- Declare a run loop like this: run(x,10){}
+    - x is the track variable, just make sure its not already assigned nor changed
+    - 10 is the ammount of times to run the code. The code to be ran goes inside the {}
+        - The code can be multiple lines
+
+-------------------------
+Method Assignments
+-------------------------
+
+- getter
+    -Helps with get methods for variables
+    -USE: getter variablename:methodname
+        -This converts it to public String variablename with a return of "methodname"
+
+-------------------------
+Example Code:
+-------------------------
+main
+
+ass x = 5
+ass y = hello
+scanner = scan
+ass hello = input
 
 
+for(z<10,++){
+    sop x
+    sop wow! This is cool
+    reass z = 10
+}
+
+end
 
 
-###**Portable Version (Flash Drive):**###
+----------------------------------
+Example Code Converted to Java:
+----------------------------------
+public static void main(String[] args){
 
-*1)* Download this repository as a ZIP
+int x = 5;
+String y = "hello";
+Scanner scan = new Scanner(System.in);
+//WARNING: Don't forget to import the scanner class!
+String hello = scan.nextLine();
 
-*2)* Extract the zip into your flash drive
 
-*3)* Navigate to the files called: "your_code.txt", "java_convert.js" and "node.exe". Move them directly onto the flash drive folder.
+for(int z = 0; z<10; z++){
+   System.out.print(x);
+   System.out.print("wow! This is cool");
+    //WARNING: For loop control variable re-assignment is not good!
+    z = 10;
+}
 
-      Confused? When you first open up your flash drive, you see it's contents. Move the files specified above into that "area" that you first see when you open your flash drive.
-
-*4)* Create / edit your code in "your_code.txt"
-
-*5)* Run node.exe
-
-*6)* In the window, type ".load E:\java_convert.js" (No quotation marks)
-
-    *NOTE*: Your drive may start with something other than E. Use a different letter if needed.
-
-*7)* Press enter, the psuedocode in "your_code.txt" will be converted and shown.
-   
-    NOTE: Make sure you saved your changes in "your_code.txt" before pressing enter
-
-*7)* Repeat 5-6 when you would like to re-compile changes to "your_code.txt".
+}
+//Made with Ez-Compile
