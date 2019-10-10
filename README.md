@@ -68,9 +68,9 @@ Method Assignments
 -------------------------
 
 - getter
-    -Helps with get methods for variables
-    -USE: getter variablename:methodname
-        -This converts it to public String variablename with a return of "methodname"
+    - Helps with get methods for variables
+    - USE: getter variablename:methodname
+        - This converts it to public String variablename with a return of "methodname"
 
 -------------------------
 Example Code:
