@@ -1,6 +1,5 @@
                                 Ez-Compile
                         Created by: Carter Kosturos
-WARNING: NOT FOR LEARNING JAVA, THIS IS FOR MAKING JAVA PROGRAMS GO SIGNIFICANTLY FASTER
 
 -------------------------
 Basics
@@ -113,4 +112,4 @@ for(int z = 0; z<10; z++){
 }
 
 }
-//Made with Taber Ez-Compile
+//Made with Ez-Compile
