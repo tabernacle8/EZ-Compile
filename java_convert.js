@@ -32,8 +32,16 @@ fs.readFile('your_code.txt', (err, data) => {
 
     line = line.replace("    ","")
 
+    if(line.startsWith("getter ")){
+        var pre_var_name = line.replace("getter ","")
+        var varname = pre_var_name.split(":")[0]
+        var getcall = pre_var_name.split(":")[1]
 
-    if(line.startsWith("main")){
+        totaltext+=("public String "+ getcall+"\n")
+        totaltext+=(`{\nreturn ${varname};\n}\n`)
+
+    }
+    else if(line.startsWith("main")){
         totaltext+=(`public static void main(String[] args){\n`)
     }
     else if(line=="end"){
