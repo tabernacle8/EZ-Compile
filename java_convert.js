@@ -41,6 +41,19 @@ fs.readFile('your_code.txt', (err, data) => {
         totaltext+=(`{\nreturn ${varname};\n}\n`)
 
     }
+
+    else if(line.startsWith("update ")){
+        var pre_var_name = line.replace("update ","")
+        var pre_var_name2 = pre_var_name
+        var varname = pre_var_name.split(":")[0]
+        var getcall = pre_var_name2.split(":")[1].replace(/(\r\n|\n|\r)/gm,"");
+        console.log("sss"+getcall+"sss")
+
+        totaltext+=(`public void ${getcall} (String ${varname}Update){`)
+        totaltext+=(`\n${varname}=${varname}Update;\n}\n`)
+
+
+    }
     else if(line.startsWith("main")){
         totaltext+=(`public static void main(String[] args){\n`)
     }
