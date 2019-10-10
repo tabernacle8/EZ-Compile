@@ -1,1 +1,2 @@
-//Code goes here
+getter test:getTest
+getter test1:getTest1
