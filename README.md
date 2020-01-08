@@ -1,5 +1,5 @@
                                 Ez-Compile
-                        Created by: Carter Kosturos
+                        Created by: Carter K.
 
 -------------------------
 Basics
