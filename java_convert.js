@@ -42,6 +42,7 @@ fs.readFile('your_code.txt', (err, data) => {
 
     }
 
+    
     else if(line.startsWith("update ")){
         var pre_var_name = line.replace("update ","")
         var pre_var_name2 = pre_var_name
